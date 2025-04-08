@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: yellow;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container styles */
+.container {
+    background-color: #ff0;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px black;
+    text-align: center;
+}
+
+/* Form styles */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+select {
+    padding: 5px;
+    font-size: 16px;
+    border: 2px solid black;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+/* Button styles */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: black;
+    color: yellow;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+/* Billboard Text Style */
+.billboard-text {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+/* Big Red Cross Style */
+.red-cross {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%) scale(0);
+    font-size: 200px;
+    color: red;
+    opacity: 0;
+    transition: opacity 3s, transform 0.5s;
+}
